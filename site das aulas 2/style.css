@@ -7,25 +7,31 @@
 body {
     background-color: #fff;
 }
-header, img {
+header, .banner {
     width: 100%;
-    height: 380px;
-}
-.banner {
-    width: 100%;
-    height: 380px;
-}
-nav {
-    width: 100%;
-    height: 50px;
     background-color: #00bcd4;
 }
+nav {
+    background-color: #00bcd4;
+    text-align: center;
+    padding: 20px;
+}
 a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
 
 }
-article {
+.anav {
+    color: #fff;
+    margin-right: 40px;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+main, #beneficios, #modalidades, #treinos {
+    padding: 100px;
+}
+main {
     width: 100%;
-    padding: 20px;
     box-sizing: border-box;
 }
 h1 {
