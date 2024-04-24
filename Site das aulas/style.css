@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;300;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+}
+header, img {
+    width: 100%;
+    height: 380px;
+}
+.banner {
+    width: 100%;
+    height: 380px;
+}
+nav {
+    background-color: #00bcd4;
+    text-align: center;
+    padding: 10px;
+}
+.am {
+    font: 1.2rem 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: bold;
+}
+.am:active, .am:hover {
+    color: #3f51b5;
+}
+.am:link, .am:visited {
+    color: #fff;
+}
+article {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+h1 {
+    font-family: kaushan script, cursive;
+    font-size: 3rem;
+    color: #3f51b5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #777;
+    text-align: justify;
+    line-height: 30px;
+}
+#tp {
+    color: #000;
+}
+section {
+    padding: 20px;
+}
+#beneficios {
+    background-color: #00bcd4;
+}
+#beneficios h2 {
+    color: #fff;
+}
+#beneficios p {
+    color: #fff;
+    margin-top: 30px;
+}
+ul {
+    list-style-type: circle;
+    padding: 20px 50px 20px 50px;
+}
+li {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: kaushan script, cursive;
+    font-size: 3rem;
+    color: #3f51b5;
+    margin-bottom: 20px;
+}
+#modalidades {
+    background-color: #eee;
+}
+#cards {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.card {
+    background-color: #fff;
+    margin: 10px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #ccc;
+    transition: 0.5s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px #ccc;
+}
+.contcard {
+    padding: 10px;
+}
+.contcard p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 20px;
+}
+h3 {
+    font-family: kaushan script, cursive;
+    font-size: 2rem;
+    color: #00bcd4;
+    text-align: center;
+    margin-bottom: 10px;
+}
