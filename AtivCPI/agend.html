@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="pr-br">
+	<head>
+		<meta charset="utf-8" />
+		<title>PFB no Parque</title>
+		<meta name="author" content="Gabriel" />
+		<meta name="keywords" content="rfb no parque" />
+		<meta name="description" content="aulas de progressive fitball no parque aos finais de semana" />
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<img src="imagens/banner.png" alt="banner com a logo do PFB no parque e uma paisagem de fundo" />
+		</header>
+		<nav>
+			<a class="am" href="index.html"> HOME </a>
+			<a class="am" href="index.html#beneficios"> BENEFÍCIOS </a>
+			<a class="am" href="index.html#modalidades"> MODALIDADES </a>
+			<a class="am" href="index.html#treinos"> TREINOS </a>
+			<a class="am" href="#"> AGENDAMENTO </a>
+		</nav>
+		<section id="agendamentos">
+			<h1>Agendamentos</h1>
+			<p>Agende uma aula experimental gráis!</p>
+			<form name="" method="" action="">
+				<label for="nome">Nome:</label>
+				<input id="nome" type="text" name="nome" placeholder="Nome Completo" required />
+				<label for="email">E-mail:</label>
+				<input id="email" type="email" name="e-mail" placeholder="nomedeusuario@gmail.com" required />
+				<label for="senha">Senha:</label>
+				<input id="senha" type="password" name="senha" placeholder="senha" required />
+				<label for="celular">Celular:</label>
+				<input id="celular" type="tel" name="celular" placeholder="(xx) xxxxx-xxxx" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" required />
+				<div id="datahoranum">
+					<div>
+						<label for="dta">Data:</label>
+						<input id="data" type="date" name="data" required />
+					</div>
+					<div>
+						<label for="hora">Hora:</label>
+						<input id="hora" type="time" name="hora" required />
+					</div>
+					<div>
+						<label for="qt">Aulas:</label>
+						<input id="qt" type="number" min="1" max="10" step="1" name="qt" required /><br/>
+					</div>
+				</div>
+				<label for="nivel">Nível:</label>
+				<select id="nivel" name="nivel">
+					<option value="">Selecione</option>
+					<option value="ini">Iniciante</option>
+					<option value="bas">Básico</option>
+					<option value="int">Intemediário</option>
+					<option value="ava">Avançado</option>
+				</select><br/>
+				<fieldset>
+					<legend>Gênero:</legend>
+					<input id="masc" type="radio" name="genero" value="masc"/><label for="masc">Feminino</label><br/>
+					<input id="fem" type="radio" name="genero" value="fem"/><label for="fem">Masculino</label>
+				</fieldset><br/>
+				<fieldset>
+					<legend>Atividade que pratica:</legend>
+					<input id="musculacao"type="checkbox" name="atividade" value="musculacao"/><label for="musculacao">Musculação</label><br/>
+					<input id="pilates"type="checkbox" name="atividade" value="pilates"/><label for="pilates">Pilates</label><br/>
+					<input id="corrida"type="checkbox" name="atividade" value="corrida"/><label for="corrida">Corrida</label><br/>
+					<input id="yoga"type="checkbox" name="atividade" value="yoga"/><label for="yoga">Yoga</label><br/>
+				</fieldset><br/>
+				<label>Mensagem:</label><br/>
+				<textarea id="mensagem" cols="52" rows="4"></textarea>
+				<div id="botaoform">
+					<input id="submit" type="submit" name="btn-agendar" value="Agendar"/>
+					<input id="reset" type="reset" name="btn-cancelar" value="Cancelar"/>
+				</div>
+			</form>
+		</section>
+		<footer>
+			<p>Desenvolvido por <a href="http://instagram.com/gabsantosmr" target="_blank">Gabriel Rodrigues</a> - 2024</p>
+		</footer>
+	</body>
+</html>

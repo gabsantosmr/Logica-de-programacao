@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;300;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+}
+header, header img {
+    width: 100%;
+    height: 380px;
+}
+
+nav {
+    background-color: #00bcd4;
+    text-align: center;
+    padding: 10px;
+}
+.am {
+    font: 1.2rem 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: bold;
+}
+.am:active, .am:hover {
+    color: #3f51b5;
+}
+.am:link, .am:visited {
+    color: #fff;
+}
+article {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+h1 {
+    font-family: kaushan script, cursive;
+    font-size: 3rem;
+    color: #3f51b5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #777;
+    text-align: justify;
+    line-height: 30px;
+}
+#tp {
+    color: #000;
+}
+section {
+    padding: 20px;
+}
+#beneficios {
+    background-color: #00bcd4;
+}
+#beneficios h2 {
+    color: #fff;
+}
+#beneficios p {
+    color: #fff;
+    margin-top: 30px;
+}
+ul {
+    list-style-type: circle;
+    padding: 20px 50px 20px 50px;
+}
+li {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: kaushan script, cursive;
+    font-size: 3rem;
+    color: #3f51b5;
+    margin-bottom: 20px;
+}
+#modalidades {
+    background-color: #eee;
+}
+#cards {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.card {
+    background-color: #fff;
+    margin: 10px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #ccc;
+    transition: 0.5s;
+}
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.card:hover {
+    box-shadow: 0 8px 16px #ccc;
+}
+.contcard {
+    padding: 10px;
+}
+.contcard p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 20px;
+}
+h3 {
+    font-family: kaushan script, cursive;
+    font-size: 2rem;
+    color: #00bcd4;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#treinos p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#conttreinos {
+    display: flex;
+}
+#contimgs {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contimgs p {
+    color: #000;
+}
+#contetreinos, #vidtreinos {
+    padding: 40px;
+
+}
+#contetreinos img {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+#video {
+    width: 400px;
+}
+footer {
+    background-color: #000;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #00bcd4;
+}
+/*agendamentos*/
+#agendamentos {
+
+}
+#agendamentos p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+
+}
+input, select, textarea{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+    color: #777;
+}
+label, fieldset, input, select, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#datahoranum {
+    display: flex;
+}
+#masc, #fem, #musculacao, #pilates, #corrida, #yoga{
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
+}
+textarea {
+    height: 80px;
+}
+#botaoform {
+    display: flex;
+}
+#submit, #reset{
+    margin: 20px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+#submit {
+    background-color: #8bc34a;
+}
+#reset {
+    background-color: #f47e7e;
+}
