@@ -7,14 +7,11 @@
 body {
     background-color: #fff;
 }
-header, img {
+header, header img {
     width: 100%;
     height: 380px;
 }
-.banner {
-    width: 100%;
-    height: 380px;
-}
+
 nav {
     background-color: #00bcd4;
     text-align: center;
@@ -100,6 +97,10 @@ h2 {
     box-shadow: 0 4px 8px #ccc;
     transition: 0.5s;
 }
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
 .card:hover {
     box-shadow: 0 8px 16px #ccc;
 }
@@ -117,4 +118,104 @@ h3 {
     color: #00bcd4;
     text-align: center;
     margin-bottom: 10px;
+}
+#treinos p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#conttreinos {
+    display: flex;
+}
+#contimgs {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contimgs p {
+    color: #000;
+}
+#contetreinos, #vidtreinos {
+    padding: 40px;
+
+}
+#contetreinos img {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+#video {
+    width: 400px;
+}
+footer {
+    background-color: #000;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #00bcd4;
+}
+/*agendamentos*/
+#agendamentos {
+
+}
+#agendamentos p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+
+}
+input, select, textarea{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+    color: #777;
+}
+label, fieldset, input, select, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#datahoranum {
+    display: flex;
+}
+#masc, #fem, #musculacao, #pilates, #corrida, #yoga{
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
+}
+textarea {
+    height: 80px;
+}
+#botaoform {
+    display: flex;
+}
+#submit, #reset{
+    margin: 20px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+#submit {
+    background-color: #8bc34a;
+}
+#reset {
+    background-color: #f47e7e;
 }
